@@ -1,0 +1,26 @@
+# --- VSCode 개인 설정 ---
+# 인터프리터(conda py311) 경로가 PC마다 달라서 제외.
+# 최상위/하위 폴더 어디에 있든 모두 무시.
+.vscode/
+**/.vscode/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- 가상환경 (프로젝트 폴더 안에 만들 경우) ---
+.venv/
+venv/
+env/
+
+# --- Jupyter 노트북 체크포인트 ---
+.ipynb_checkpoints/
+
+# --- 학습된 모델 파일 (용량이 큼, 필요하면 개별적으로 올릴 것) ---
+*.h5
+*.keras
+*.ckpt
+
+# --- OS 생성 파일 ---
+.DS_Store
+Thumbs.db
