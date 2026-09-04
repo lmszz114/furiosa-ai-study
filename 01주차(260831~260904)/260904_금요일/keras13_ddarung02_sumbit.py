@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 #1. 데이터
-path = "./_data/ddarung/"  # 상대경로
+path = "H:/furiosa-ai-study/01주차(260831~260904)/260904_금요일/따릉이/"
 # 땡겨온 데이터를 수치화 해야함 -> 판다스(pandas) 사용 / 판다스 설치 필요
 """
 # path = "C:/study/_data/ddarung/" # 절대경로 # 슬래시/역슬래시 상관없으나, 예약어 때문에 슬래시 쓰는게 나아보임
@@ -85,7 +85,7 @@ model.add(Dense(1))
 
 #3. 컴파일, 훈련
 model.compile(loss='mse', optimizer='adam')
-model.fit(x_train, y_train, epochs=2000, batch_size=5)
+model.fit(x_train, y_train, epochs=10, batch_size=5)
 
 print("===================================")
 
@@ -106,7 +106,7 @@ submission['count'] = y_submit
 print(submission)
 print(submission.shape)
 
-submission.to_csv(path + "submit/" + "submit_0904_1337.csv")
+submission.to_csv(path + "submit/" + "submit_0904.csv")
 
 
 

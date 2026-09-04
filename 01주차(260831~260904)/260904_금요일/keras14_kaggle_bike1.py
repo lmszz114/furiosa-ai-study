@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
 
 #1. 데이터
-path = "./_data/kaggle_bike/"
+path = "H:/furiosa-ai-study/01주차(260831~260904)/260904_금요일/캐글/"
 
 train_csv = pd.read_csv(path + 'train.csv', index_col=0)
 print(train_csv)    # [10886 rows x 11 columns]
@@ -25,8 +25,8 @@ print(test_csv.info())
 print(train_csv.describe()) # 묘사
 
 ######################### 결측치 확인 #########################
-print(train_csv.isna().sum()) # 결측치 수치(isna)를 더하기(sum)
-print(train_csv.isnull().sum()) # 결측치 위치 찾아서(isnull)를 더하기(sum)
+print(train_csv.isna().sum()) # 결측치 수치(isna) 개수
+print(train_csv.isnull().sum()) # 결측치 위치 찾아서(isnull)
 
 
 ######################### x, y 분리 #########################
@@ -53,7 +53,7 @@ model.add(Dense(1,activation='relu'))   # activation 넣어도 상관없긴한�
 
 #3. 컴파일, 훈련
 model.compile(loss='mse', optimizer='adam')
-model.fit(x_train, y_train, epochs=500, batch_size=4)
+model.fit(x_train, y_train, epochs=10, batch_size=4)
 
 print("===================================")
 
