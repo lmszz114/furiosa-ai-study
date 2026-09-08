@@ -24,3 +24,6 @@ env/
 # --- OS 생성 파일 ---
 .DS_Store
 Thumbs.db
+
+# --- CSV 데이터 파일 (github 용량 허용 제한) ---
+*.csv
