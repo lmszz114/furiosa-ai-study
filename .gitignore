@@ -28,9 +28,12 @@ Thumbs.db
 # --- CSV 데이터 파일 (github 용량 허용 제한) ---
 *.csv
 
-# --- 이미지 데이터 (용량 큼) ---
+# --- 이미지 데이터 ---
 **/brain/
 **/cat_dog/
+**/_data/
+**/_save/
 
-# --- npy 데이터 (용량) ---
+# --- npy,keras 데이터 ---
 *.npy
+*.keras

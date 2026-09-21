@@ -30,6 +30,7 @@ furiosa-ai-study/
 |---|---|---|
 | 1주차 | 08.31 ~ 09.04 | TensorFlow/Keras 기초, 선형회귀 → 딥러닝, shape·MLP, train/test 분리, 평가지표(MSE·RMSE·R²), pandas·실전 데이터, relu |
 | 2주차 | 09.07 ~ 09.11 | verbose·validation·EarlyStopping, 이진분류(sigmoid), 다중분류(softmax·원-핫), input_shape·파라미터, 스케일러 4종, 모델 save/load |
+| 3주차 | 09.14 ~ 09.18 | 모델 저장·Dropout·함수형 모델, GPU 세팅, CNN(Conv2D·Flatten·파라미터·MNIST/CIFAR), padding·pooling·GAP, CNN↔DNN 변환, 이미지 데이터(ImageDataGenerator·npy) |
 
 *(매주 업데이트 예정)*
 
@@ -38,6 +39,8 @@ furiosa-ai-study/
 ## 주차별 총정리
 
 - [1주차 총정리](./01주차(260831~260904)/1주차_총정리.md)
+- [2주차 총정리](./02주차(260907~260911)/2주차_총정리.md)
+- [3주차 총정리](./03주차(260914~260918)/3주차_총정리.md)
 
 ---
 
