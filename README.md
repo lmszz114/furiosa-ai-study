@@ -32,6 +32,7 @@ furiosa-ai-study/
 | 2주차 | 09.07 ~ 09.11 | verbose·validation·EarlyStopping, 이진분류(sigmoid), 다중분류(softmax·원-핫), input_shape·파라미터, 스케일러 4종, 모델 save/load |
 | 3주차 | 09.14 ~ 09.18 | 모델 저장·Dropout·함수형 모델, GPU 세팅, CNN(Conv2D·Flatten·파라미터·MNIST/CIFAR), padding·pooling·GAP, CNN↔DNN 변환, 이미지 데이터(ImageDataGenerator·npy) |
 | 4주차 | 09.21 ~ 09.23 | 이미지 분류 전체 워크플로우(3단계 파일·train/test 분리·자동 라벨링·predict 해석), 내 사진 수치화(img_to_array), 데이터 증폭(datagen.flow·한 클래스 증폭), 러닝레이트(Adam learning_rate·ReduceLROnPlateau), RNN 입문(시계열·타임스텝·SimpleRNN·LSTM 예고) |
+| 5주차 | 09.28 ~ 10.02 | 시계열 자르기(split_x·배열 슬라이싱), RNN 심화(GRU·다층 return_sequences·Bidirectional), 차원 구조 총정리(DNN·CNN·RNN·Embedding), 모델 LSTM 재구성·Reshape 층, 자연어 처리(토큰화·원핫·패딩·Embedding), 텍스트 분류(reuters·imdb·sparse_categorical_crossentropy), RAG 입문(LangChain·.env·LCEL·임베딩) |
 
 *(매주 업데이트 예정)*
 
@@ -43,6 +44,7 @@ furiosa-ai-study/
 - [2주차 총정리](./02주차(260907~260911)/2주차_총정리.md)
 - [3주차 총정리](./03주차(260914~260918)/3주차_총정리.md)
 - [4주차 총정리](./04주차(260921~260923)/4주차_총정리.md)
+- [5주차 총정리](./05주차(260928~261002)/5주차_총정리.md)
 
 ---
 
