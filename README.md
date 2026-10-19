@@ -34,6 +34,7 @@ furiosa-ai-study/
 | 4주차 | 09.21 ~ 09.23 | 이미지 분류 전체 워크플로우(3단계 파일·train/test 분리·자동 라벨링·predict 해석), 내 사진 수치화(img_to_array), 데이터 증폭(datagen.flow·한 클래스 증폭), 러닝레이트(Adam learning_rate·ReduceLROnPlateau), RNN 입문(시계열·타임스텝·SimpleRNN·LSTM 예고) |
 | 5주차 | 09.28 ~ 10.02 | 시계열 자르기(split_x·배열 슬라이싱), RNN 심화(GRU·다층 return_sequences·Bidirectional), 차원 구조 총정리(DNN·CNN·RNN·Embedding), 모델 LSTM 재구성·Reshape 층, 자연어 처리(토큰화·원핫·패딩·Embedding), 텍스트 분류(reuters·imdb·sparse_categorical_crossentropy), RAG 입문(LangChain·.env·LCEL·임베딩) |
 | 6주차 | 10.06 ~ 10.08 | 시계열→CNN 재구성(Reshape·Conv2D·MaxPooling·OOM 대응), Conv1D로 RNN 재구성(3D 입력·GAP1D), 모델별 차원 총정리, 앙상블(Concatenate·다중 입력/출력 분기), RAG 전체 파이프라인(Chroma·FAISS VectorDB·검색+생성 체인·Gradio), PDF 로더(PyPDFLoader), 임베딩 교체(OpenAI↔HuggingFace) |
+| 7주차 | 10.12 ~ 10.15 | 앙상블 분기(1입력→2출력), 앙상블 실전 주식 시가 예측(LSTM+Conv1D·시계열 전처리·weight 저장/predict 분리), 전이학습(가중치·동결 trainable·VGG16 include_top·cifar 동결 비교), 부분 동결·여러 사전학습 모델 for문 비교, RAG 심화(대화기억 MessagesPlaceholder·유사도 임계값·프롬프트 규칙), 검색 방식 3종(BM25·벡터·하이브리드) |
 
 *(매주 업데이트 예정)*
 
@@ -47,6 +48,7 @@ furiosa-ai-study/
 - [4주차 총정리](./04주차(260921~260923)/4주차_총정리.md)
 - [5주차 총정리](./05주차(260928~261002)/5주차_총정리.md)
 - [6주차 총정리](./06주차(261006~261008)/6주차_총정리.md)
+- [7주차 총정리](./07주차(261012~261015)/7주차_총정리.md)
 
 ---
 
