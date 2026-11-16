@@ -35,6 +35,10 @@ furiosa-ai-study/
 | 5주차 | 09.28 ~ 10.02 | 시계열 자르기(split_x·배열 슬라이싱), RNN 심화(GRU·다층 return_sequences·Bidirectional), 차원 구조 총정리(DNN·CNN·RNN·Embedding), 모델 LSTM 재구성·Reshape 층, 자연어 처리(토큰화·원핫·패딩·Embedding), 텍스트 분류(reuters·imdb·sparse_categorical_crossentropy), RAG 입문(LangChain·.env·LCEL·임베딩) |
 | 6주차 | 10.06 ~ 10.08 | 시계열→CNN 재구성(Reshape·Conv2D·MaxPooling·OOM 대응), Conv1D로 RNN 재구성(3D 입력·GAP1D), 모델별 차원 총정리, 앙상블(Concatenate·다중 입력/출력 분기), RAG 전체 파이프라인(Chroma·FAISS VectorDB·검색+생성 체인·Gradio), PDF 로더(PyPDFLoader), 임베딩 교체(OpenAI↔HuggingFace) |
 | 7주차 | 10.12 ~ 10.15 | 앙상블 분기(1입력→2출력), 앙상블 실전 주식 시가 예측(LSTM+Conv1D·시계열 전처리·weight 저장/predict 분리), 전이학습(가중치·동결 trainable·VGG16 include_top·cifar 동결 비교), 부분 동결·여러 사전학습 모델 for문 비교, RAG 심화(대화기억 MessagesPlaceholder·유사도 임계값·프롬프트 규칙), 검색 방식 3종(BM25·벡터·하이브리드) |
+| 8주차 | 10.19 ~ 10.22 | LangGraph 입문(State·Node·Edge·그래프 구성), 도구 호출(ToolNode·조건부 엣지), 메모리·병렬 실행, 병렬 통합·개선, 트리 모델·특성 중요도 |
+| 9주차 | 10.26 ~ 10.30 | 미니 프로젝트 기간 (팀 해커톤 진행 — 정규 수업 없음) |
+| 10주차 | 11.02 ~ 11.06 | FuriosaAI NPU 실습 시작(furiosa-llm 서빙·OpenAI 호환 API), 함수 호출(tool calling), 모델 양자화, LangChain 스트리밍, 파이썬 모듈/패키지, 교차검증(K-Fold·StratifiedKFold·all_estimators), 하이퍼파라미터 튜닝(GridSearchCV·RandomizedSearchCV) |
+| 11주차 | 11.09 ~ 11.13 | NPU LLM 성능 측정(Latency·TTFC·TPS·RPS·Prefill/Decode), 추론 최적화(연속 배칭·KV/프리픽스 캐시·Overlap 스케줄링·서버 메트릭), HalvingGridSearchCV, 파이썬 map·lambda, 활성화 함수 8종, Softmax·경사하강법·학습률·TensorBoard |
 
 *(매주 업데이트 예정)*
 
@@ -48,7 +52,8 @@ furiosa-ai-study/
 - [4주차 총정리](./04주차(260921~260923)/4주차_총정리.md)
 - [5주차 총정리](./05주차(260928~261002)/5주차_총정리.md)
 - [6주차 총정리](./06주차(261006~261008)/6주차_총정리.md)
-- [7주차 총정리](./07주차(261012~261015)/7주차_총정리.md)
+- [7주차 총정리](./07주차(261012~261016)/7주차_총정리.md)
+- [11주차 총정리](./11주차(261109~261113)/11주차_총정리.md)
 
 ---
 
