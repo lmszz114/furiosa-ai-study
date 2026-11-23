@@ -39,6 +39,7 @@ furiosa-ai-study/
 | 9주차 | 10.26 ~ 10.30 | 미니 프로젝트 기간 (팀 해커톤 진행 — 정규 수업 없음) |
 | 10주차 | 11.02 ~ 11.06 | FuriosaAI NPU 실습 시작(furiosa-llm 서빙·OpenAI 호환 API), 함수 호출(tool calling), 모델 양자화, LangChain 스트리밍, 파이썬 모듈/패키지, 교차검증(K-Fold·StratifiedKFold·all_estimators), 하이퍼파라미터 튜닝(GridSearchCV·RandomizedSearchCV) |
 | 11주차 | 11.09 ~ 11.13 | NPU LLM 성능 측정(Latency·TTFC·TPS·RPS·Prefill/Decode), 추론 최적화(연속 배칭·KV/프리픽스 캐시·Overlap 스케줄링·서버 메트릭), HalvingGridSearchCV, 파이썬 map·lambda, 활성화 함수 8종, Softmax·경사하강법·학습률·TensorBoard |
+| 12주차 | 11.16 ~ 11.20 | 결측치 처리(보간·SimpleImputer·KNNImputer·IterativeImputer), pandas loc/iloc, Tool Calling(@tool·bind_tools·tool_calls)·파이썬 데코레이터, 배치 정규화(BatchNormalization), 퍼셉트론과 XOR 문제(단층 한계·다층 MLP) |
 
 *(매주 업데이트 예정)*
 
@@ -56,6 +57,7 @@ furiosa-ai-study/
 - [8주차 총정리](./08주차(261019~261023)/8주차_총정리.md)
 - [10주차 총정리](./10주차(261102~261106)/10주차_총정리.md)
 - [11주차 총정리](./11주차(261109~261113)/11주차_총정리.md)
+- [12주차 총정리](./12주차(261116~261120)/12주차_총정리.md)
 
 ---
 
